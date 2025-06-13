@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Your Family Tree, make your own family tree using JavaScript. This is the sample test page.">
+  <meta name="keywords" content="family, tree, history, test, JavaScript, CSS, JSON, sample">
+
+  <title>Family Tree</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+  <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
+  <script src="https://unpkg.com/cytoscape-dagre/cytoscape-dagre.js"></script>
+
+</head>
+<body>
+  <input type="text" id="search" placeholder="Search for a person..." style="margin:10px 0 10px 10px;width:250px;padding:8px;font-size:16px;border-radius:5px;border:1px solid #ccc;">
+  <div id="cy"></div>
+  <div id="modal" class="hidden">
+	<div id="modal-content"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

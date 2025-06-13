@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p1",
+    "name": "Evelyn Evens",
+    "dob": "02/01/1954",
+    "image": "img/p1.jpg",
+    "notes": "This is some text <br/>Use <strong>HTML</strong> to style",
+    "children": ["u1"]
+  },
+  {
+    "id": "p2",
+    "name": "Martin Moir",
+    "dob": "16/02/1950",
+	"dod": "03/08/2023",
+    "image": "img/p2.jpg",
+    "notes": "This is some text <br/>Use <strong>HTML</strong> to style",
+    "children": ["u1"]
+  },
+  {
+    "id": "u1",
+    "invisible": true,
+    "children": ["p3"]
+  },
+  {
+    "id": "p3",
+    "name": "Beep Beep",
+    "dob": "16/05/1984",
+    "image": "img/p3.jpg",
+    "notes": "This is some text <br/>Use <strong>HTML</strong> to style",
+    "children": ["u2"]
+  },
+  {
+    "id": "p4",
+    "name": "Rebecca Redmond",
+    "dob": "04/01/1984",
+    "image": "img/p4.jpg",
+    "notes": "This is some text <br/>Use <strong>HTML</strong> to style",
+    "children": ["u2"]
+  },
+  
+  {
+    "id": "u2",
+    "invisible": true,
+    "children": ["p7"]
+  },  
+  
+  {
+    "id": "p5",
+    "name": "Susan Simmons ",
+    "dob": "21/02/1956",
+    "image": "img/p5.jpg",
+    "notes": "This is some text <br/>Use <strong>HTML</strong> to style",
+    "children": ["u3"]
+  },
+  
+  {
+    "id": "p6",
+    "name": "Richard Redmond",
+    "dob": "30/07/1955",
+    "image": "img/p6.jpg",
+    "notes": "This is some text <br/>Use <strong>HTML</strong> to style",
+    "children": ["u3"]
+  },  
+  
+   {
+    "id": "p7",
+    "name": "Mini Boo",
+    "dob": "17/10/2013",
+    "image": "img/p7.jpg",
+    "notes": "This is some text <br/>Use <strong>HTML</strong> to style",
+    "children": []
+  },  
+  
+   {
+    "id": "u3",
+    "invisible": true,
+    "children": ["p4"]
+  }
+  
+
+  
+]
