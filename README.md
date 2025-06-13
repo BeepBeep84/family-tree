@@ -2,17 +2,17 @@
 
 This is an interactive family tree visualizer built using [Cytoscape.js](https://js.cytoscape.org/). Each person is a node in a directed graph, and relationships like partnerships and children are represented by edges. Clicking a person shows their details in a popup. It also includes a search box to quickly find people by name.
 
-🔗 **Live Preview**  
+**Live Preview**  
 Live demo is hosted on my site:  
-👉 [Family Tree](https://randomboo.com/tree/)
+[Family Tree](https://randomboo.com/tree/)
 
-📝 **Blog Post**  
+**Blog Post**  
 Read more about how it works and how to use or extend it:  
-👉 [Family Tree](https://randomboo.com/project/family_tree/)
+[Family Tree](https://randomboo.com/project/family_tree/)
 
 ---
 
-## 🚀 Features
+## Features
 
 - Visual graph of family relationships
 - Invisible nodes for unions to keep layout tidy
@@ -22,7 +22,7 @@ Read more about how it works and how to use or extend it:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 index.html # Main page
 script.js # Graph logic, data load, event handling
@@ -56,10 +56,10 @@ Unions (marriages or partnerships) use:
 
 ---
 
-🖼️ Images
+## Images
 If no image is provided, img/non.jpg is used by default. You can add your own images to the img/ folder and reference them in people.json.
 
-📄 License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
